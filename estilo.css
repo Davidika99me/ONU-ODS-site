@@ -1,0 +1,82 @@
+#capa{
+    text-align: center;
+    height: 100vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+background-image: url('wind-1599495_1920.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#cabeçalho{
+    width: 40px; ;
+    float: right;
+    height: 40px;
+    background-color:violet
+    color #fff
+
+    text
+    text-align center;
+
+    padding: 10px;
+
+    
+}
+#menu{padding: 10px;
+    width: 40px;
+    float: left;
+    background: color #555;
+    color: greenyellow
+    height: 40px
+
+}
+nav {padding: 10px;
+    background-color: #555;
+    color: #fff;
+}
+
+nav ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+#principal{border-color: darkslategrey;
+    padding: 20px;
+    width: 70px;
+    float: inline-end;
+    height: 40px;
+    background-color: cyan
+}
+#rodaé{
+    width: 50px;
+    float: inline-start;
+    height: 40px;
+    background-color:#333
+    color#fff
+
+    text-align center; 
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+}
+button:hover{
+    opacity: 0.5;
+    background-color: black;
+}
