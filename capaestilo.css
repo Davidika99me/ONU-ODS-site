@@ -1,0 +1,19 @@
+#capa{
+    text-align: center;
+    height: 100vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+background-image: url('wind-1599495_1920.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+    font-size: 40px;
+}
+
+button:hover{
+    opacity: 0.5;
+        background-color: black;}
