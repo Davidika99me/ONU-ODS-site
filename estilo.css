@@ -1,35 +1,61 @@
-.centralizar{
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projeto{
+    justify-items: center;
+}
+
+#cabecalho {
+
+    width: 400px; 
+    float: right;
+    height: 400px;
+    background-color:violet;
     text-align: center;
-    margin-bottom: 25px;
+    padding: 10px;   
 }
 
-.flex{
-    display: flex;
-    gap: 40px;
-    align-items: center;
-}
 
-.itens{ 
-    display: flex;
-    gap: 10px;
-}
 
-.bloco{
-    width: 700px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.img{
-    width: 40px;
+#menu {
+    
+    padding: 10px;
+    width: 100px;
+    float: left;
+    color: crimson;
     height: 40px;
-    align-items: center;
 }
 
-.icone{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
-    flex-direction: column;
+
+nav {padding: 10px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    
+}
+
+#rodape{
+    width: 50px;
+    float: inline-start;
+    height: 40px;
+    background-color:#333
+    color#fff
+
+    text-align cen
+    bottom 0;
 }
